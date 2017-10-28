@@ -1,0 +1,10 @@
+default: -f pretty
+html: -f html -o reporte.html
+json: -f json -o reporte.json
+
+regresion: -t @regresion -p default
+smoke: -t @smoke -p default
+
+login: -t @login -p default
+
+homepage: -t @homepage
