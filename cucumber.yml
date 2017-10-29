@@ -1,6 +1,7 @@
 default: -f pretty
 html: -f html -o reporte.html
 json: -f json -o reporte.json
+output: --format AllureCucumber::Formatter --out notas/salida/
 
 regresion: -t @regresion -p default
 smoke: -t @smoke -p default
