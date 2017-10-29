@@ -5,6 +5,7 @@ Before do
     "chromeOptions" => { "mobileEmulation" => mobile_emulation })
   $browser ||= Selenium::WebDriver.for :chrome, desired_capabilities: caps
   #$browser ||= Selenium::WebDriver.for :firefox, desired_capabilities: caps
+
 end
 
 After do |escenario|
