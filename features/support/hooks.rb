@@ -1,8 +1,9 @@
 Before do
   
-  mobile_emulation = { "deviceName" => "Nexus 5" }
-  caps = Selenium::WebDriver::Remote::Capabilities.chrome(
-    "chromeOptions" => { "mobileEmulation" => mobile_emulation })
+ # mobile_emulation = { "deviceName" => "Nexus 5" }
+  caps = Selenium::WebDriver::Remote::Capabilities.chrome()
+ # caps = Selenium::WebDriver::Remote::Capabilities.chrome(
+ #   "chromeOptions" => { "mobileEmulation" => mobile_emulation })
   $browser ||= Selenium::WebDriver.for :chrome, desired_capabilities: caps
   #$browser ||= Selenium::WebDriver.for :firefox, desired_capabilities: caps
 
