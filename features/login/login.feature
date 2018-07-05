@@ -43,9 +43,9 @@ Esquema del escenario: Mensajes de error ante login instisfactorio
 Ejemplos:
 	|usuario    |contraseña |mensaje                                                       |
 	|           |asijdoaisjd|ERROR: El campo Nombre de usuario está vacío.                 |
-	|sdasd      |asdasdasd  |ERROR: Nombre de usuario inválido. ¿Has perdido tu contraseña?|
+	|sdasd      |asdasdasd  |ERROR: Nombre de usuario no válido. ¿Olvidaste tu contraseña? |
 	|alumnocurso|           |ERROR: El campo contraseña está vacío.                        |
-	|alumnocurso|alskdmalsd |ERROR: La contraseña que has introducido para el usuario alumnocurso es incorrecta. ¿Has perdido tu contraseña?|
+	|alumnocurso|alskdmalsd |ERROR: Nombre de usuario no válido. ¿Olvidaste tu contraseña? |
 
 
 @editor @exitoso @wip @URGENCY:critical @JIRA++YZZ-100 @HIPTEST--9901
